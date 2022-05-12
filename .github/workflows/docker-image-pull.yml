@@ -43,4 +43,4 @@ jobs:
         password: ${{ secrets.GIT_TOKEN }}
     - name: Docker push
       run: |
-        docker push ghcr.io/tarunsharmaji9876/${{ env.docker-image }}:v2
+        docker push tarunsharma9876/test-repository/${{ env.docker-image }}:v2
